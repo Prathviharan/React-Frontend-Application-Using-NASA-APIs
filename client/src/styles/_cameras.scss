@@ -1,0 +1,52 @@
+.cameras {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cameras div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cameras div button {
+  background: var(--heading);
+  border: 1px solid var(--primary);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: var(--primary);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  font-family: "Nasa";
+  text-transform: uppercase;
+}
+
+.cameras div button:hover,
+.cameras div button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: var(--primary);
+}
+
+.cameras div button:active {
+  opacity: 0.5;
+}

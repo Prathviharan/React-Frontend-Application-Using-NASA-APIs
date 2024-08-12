@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  height: 14vh;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+header nav ul {
+  display: flex;
+  gap: 3rem;
+  text-transform: uppercase;
+}
+
+header nav ul li a {
+  color: inherit;
+  transition: 0.3s all ease-in-out;
+  font-weight: bold;
+  font-family: "Nasa";
+}
+
+header nav ul li a:hover {
+  color: var(--heading);
+}
+

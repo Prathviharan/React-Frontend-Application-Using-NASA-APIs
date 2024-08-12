@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 81vh;
+}
+
+iframe {
+  border: 2px var(--primary) solid;
+  width: 50vw;
+  height: 50vh;
+}

@@ -1,0 +1,42 @@
+.selectrover {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+.selectrover button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 8rem;
+  transition: 0.3s all ease-in-out;
+  
+}
+
+.selectrover button h3{
+  font-family: "Nasa";
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.selectrover button:hover {
+  transform: scale(1.05);
+}
+
+.selectrover .spirit img {
+  height: 3rem;
+  filter: invert(100%);
+}
+
+.selectrover .curiosity img {
+  height: 3rem;
+  filter: invert(100%);
+}
+
+.selectrover .opportunity img {
+  height: 3rem;
+  filter: invert(100%);
+}

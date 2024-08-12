@@ -1,0 +1,37 @@
+.rover {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 81vh;
+  gap: 1rem;
+}
+
+.controlPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-start;
+  width: 35vw;
+  height: 81vh;
+  padding: 1rem;
+}
+
+.controlPanel h2{
+  font-family: "Nasa";
+  color: var(--primary);
+}
+
+.gallery {
+  width: 65vw;
+  height: 81vh;
+  overflow-y: scroll;
+}
+
+.sol h2{
+  color: var(--primary);
+}
+
+.sol input{
+  accent-color: var(--heading);
+}
